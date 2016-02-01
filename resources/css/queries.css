@@ -1,0 +1,476 @@
+    /*
+
+color - #e67e22
+background-color: rgba(237, 237, 237, 0.37)
+
+*/
+
+
+/* this breakpoint was chosen because this is where things start going awry */
+
+
+/* 1140px to 1200px */
+
+
+/* big tablets to desktop */
+
+@media only screen and (max-width:1200px) {
+    
+
+    .hero-text-box {
+        padding: 1.5%;
+        width: 100%;
+    }
+    .row {
+        padding: 1.5%;
+    }
+    
+    blockquote:after {
+    margin-left: 200px;
+    margin-top: -40px;
+ 
+    }
+    
+    .section-works .iphone-pic{
+        width: 20%;
+        height: auto;
+        text-align: center
+    }
+
+}
+
+
+/* small tablets to big tablets */
+
+
+/* 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 90%;
+    }
+    h2 {
+        line-height: 140%;
+    }
+    
+    .hero-text-box {
+    
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 90%;
+}
+    
+    .btn-signup{
+        margin-bottom: 15px;
+    }
+    ul.meal-showcase {
+        list-style: none;
+        width: 100%;
+    }
+    .section-cities .col,
+    .section-start .col {
+       /* width: 50%;
+        margin: 3% auto;
+        padding: 10px;*/
+    }
+    
+          .col,
+        header .row,
+        .section-cities .col,
+        .section-start .col {
+            width: 100%;
+            margin: 1% auto;
+            padding: 6%;
+        }
+        
+        
+        .section-footer .col {
+            padding: 1%;
+        }
+    
+    header .sticky .row {
+        width: 100%;
+        margin:0;
+        padding: 1%;
+    }
+   
+    .sticky .main-menu{
+        margin-top: 0;
+    }
+    
+.sticky .logo-black{
+    margin: 0;
+    padding: 0;
+}
+    
+    /* section-start */
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* gallery */
+    .meal-showcase li {
+        /*if smthg goes wrong, there used to be float let */
+        width: 50%;
+    }
+    /* section-works */
+    .step-box p {
+        margin-left: 17%;
+    }
+    .steps-box {
+        margin-top: 8%;
+    }
+    img.iphone-pic {
+        width: 45%;
+        height: auto;
+    }
+    .app>.col {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        border-top: 2px solid #e8e8e8;
+        padding-top: 12%;
+    }
+    .app:before {
+        height: 3px;
+        display: block;
+        width: 90px;
+        background-color: aqua
+    }
+    .app-btn img {
+        display: inline-block;
+        width: auto;
+        height: 60px;
+    }
+    /* section-cities */
+    .section-cities {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+    .section-cities h3 {
+        font-size: 110%;
+        width: 90%;
+    }
+    .section-cities img {
+        width: 100%;
+    }
+    .cities-text i {
+        font-size: 150%;
+    }
+    .cities-text p {
+        font-size: 105%;
+    }
+    /* section-testimonials */
+    .section-testimonials {
+        padding-bottom: 150px;
+        font-size: 90%;
+    }
+    blockquote {
+        padding: 0 3%;
+    }
+    blockquote:after {
+        margin-left: 180px;
+        margin-top: -30px;
+        content: '\201e';
+        color: rgba(214, 214, 214, 0.5);
+        font-size: 700%;
+    }
+    /* section-pricing */
+    .pricing-box {
+        background-color: #ffffff;
+        margin-left: 0%;
+        width: 100%;
+        font-size: 90%;
+        box-shadow: 0 3px 5px rgb(230, 230, 230);
+    }
+    /* section-form */
+    form {
+        width: 70%;
+    }
+    input,
+    textarea,
+    select {
+        margin-left: 5%;
+    }
+    input[type='submit'] {
+        margin-left: 37%;
+    }
+}
+
+    /* small phones to small tablets */
+    /* 480px to 767px */
+    @media only screen and (max-width:767px) {
+        /* setup */
+        body {
+            font-size: 95%;
+        }
+        h1 {
+            font-size: 180%;
+        }
+        h2 {
+            font-size: 150%;
+            width: 80%;
+            margin: 0 auto;
+        }
+        section:not(.section-meals) {
+            padding: 60px 0;
+        }
+  
+        
+        
+       /* .main-menu {
+            display: none
+        }*/
+        
+        .mobile-nav-icon{
+            display: inline-block;
+        }
+        
+ .main-menu {
+    float: left;
+    margin-top:0px;
+    margin-left: 20px;
+}
+
+     
+ .main-menu li {
+    padding-bottom: 15px;
+    display: block;
+    margin-left: 0px;
+
+}
+        
+ 
+.main-menu a:hover {
+    padding-bottom: 1px;
+    border-bottom: 2px solid #e67e22;
+}
+
+        
+
+.logo {
+    margin-top: 0px;
+}
+    
+        
+/* sticky nav   sticky nav   sticky nav */
+
+
+        
+
+        
+ .mobile-nav-icon{
+    margin-top: 0;
+}
+        
+        
+.sticky .mobile-nav-icon i{
+    color: #000;
+    font-size: 160%;
+}
+
+.sticky .main-menu a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 80%;
+}
+
+        .sticky .main-menu{
+            margin-left: 10px ;
+        }
+        
+.sticky .main-menu a:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #e67e22;
+}
+
+    
+.sticky .main-menu li{
+    margin-top: 0px;
+}
+
+.sticky .logo-black{
+    display: inline-block;
+    height: 40px;
+    width: auto;
+}
+
+
+/* end sticky nav   end sticky nav   end sticky nav */
+
+        
+        .hero-text-box {}
+        form {
+            width: 70%;
+        }
+        /* section-start */
+        .section-start .long-copy {
+            margin-bottom: 20px;
+        }
+        .section-start p {
+            margin-bottom: -25px;
+        }
+        /* section-steps */
+        img.iphone-pic {
+            width: 30%;
+            height: auto;
+            margin: -55px 34% 10px;
+        }
+        .app>.col {
+            margin-top: 4%;
+        }
+        /* section-cities */
+        .section-cities h2 {
+            margin-bottom: -30px;
+        }
+        .section-cities h3 {
+            font-size: 110%;
+            width: 100%;
+            text-align: center;
+        }
+        .section-cities .col {
+            margin-bottom: -50px
+        }
+        /* section-testimonials */
+        .section-testimonials>.row {
+            margin-bottom: -20px;
+        }
+        blockquote {
+            padding: 0 0 20px;
+            margin-bottom: 20px;
+        }
+        blockquote:after {
+            margin: -20px 400px;
+            content: '\201e';
+            color: rgba(214, 214, 214, 0.5);
+            font-size: 700%;
+        }
+        /* section-form */
+        form {
+            width: 90%;
+        }
+        input,
+        textarea,
+        select {
+            margin: 0 0 30px;
+        }
+        input:last-child {
+            margin-bottom: 50px
+        }
+        .section-form div {
+            margin: 0 0 -40px;
+        }
+        /* section-footer */
+        .section-footer {
+            padding-top: 0;
+        }
+        .section-footer ul {
+            margin-left: 25%;
+        }
+        .footer-social {
+            margin-right: 35%;
+        }
+        
+   
+     
+    }
+
+/* end 767px */
+/* small phones: from 0 to 480px */
+@media only screen and (max-width:480px) {
+        body {
+            font-size: 80%;
+        }
+        h1 {
+            font-size: 150%;
+        }
+        h2 {
+            font-size: 130%;
+        }
+        header {
+            height: 60vh;
+        }
+        
+        .sticky nav,
+        nav{
+            font-size: 90%;
+            
+    }
+    
+    .sticky nav .main-menu li,
+    nav .main-menu li{
+        padding-bottom: 8px;
+    }
+    
+    
+        nav .logo {
+            height: 50px;
+            width: auto;
+            
+        }
+
+      
+/* section-cities */
+       
+    
+        .section-cities .col {
+            margin-bottom: 0px
+        }
+        
+/* section-testimonials */
+        
+                
+        .section-testimonials .col:last-child{
+            padding-bottom:8%;
+        }
+      
+        blockquote:after {
+            margin: -20px 300px;
+            font-size: 600%;
+        }
+        
+        blockquote img{
+            width: 20%;
+        }
+        
+/* section-form */
+        
+    
+        input,
+        textarea,
+        select {
+            margin: 10px 0 30px;
+        }
+     
+        input[type='submit']{
+            margin-left: 30%;
+        }
+        
+/* section-footer */
+      
+        .footer-links li{
+            font-size: 120%;
+            margin-bottom: 5px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin-left:-15%;
+        }
+    
+    .footer-links li:last-child{
+        margin-bottom: 15px;
+    }
+    
+    .section-footer ul:last-of-type li{
+        margin-right: 20px;    
+    }
+    
+    .section-footer ul li:last-child {
+        margin-right: -10px;
+    }
+  
+}
+/* end 480px */
