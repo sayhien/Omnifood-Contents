@@ -431,10 +431,19 @@ Inexpensive, healthy and great-tasting meals, delivered right to my home. We hav
     </div><!--row-->
     
     <div class='row'>
-        <form method="post" action="#" id='form'>
+        <form method="post" action="mailer.php" id='form'>
 <!--name-->   
             <div class='row'>
-                
+                <?php
+                if($_GET['success'] == 1){
+                    echo "<div class=\"php-message php-success\">Your message has been sent!</div>";
+                if($_GET['success'] == -1){
+                    echo "<div class=\"php-message php-fail\"> Oops! Something went wrong, please try again...</div>";
+            
+                ?>
+            </div><!--row-->
+            
+            <div class='row'>
                 <div class='col span-1-of-3'>
                     <label for='form-name'>Name</label>
                 </div><!--col span-1-of-3-->
