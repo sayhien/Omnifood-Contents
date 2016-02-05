@@ -121,12 +121,14 @@ background-color: rgba(237, 237, 237, 0.37)
         margin-left: 17%;
     }
     .steps-box {
-        margin-top: 8%;
+        margin-top: 20px;
     }
-    img.iphone-pic {
-        width: 45%;
-        height: auto;
+    
+    .works:first-child{ /* aligns phone center */
+        text-align: center;
     }
+
+    
     .app>.col {
         width: 100%;
         text-align: center;
@@ -190,13 +192,21 @@ background-color: rgba(237, 237, 237, 0.37)
     form {
         width: 70%;
     }
-    input,
-    textarea,
-    select {
-        margin-left: 5%;
-    }
+  
     input[type='submit'] {
         margin-left: 37%;
+    }
+    
+    .section-form div{
+        margin-bottom: -60px;
+    }
+    
+    .section-form div:last-child{
+        margin-bottom: 0;
+    }
+    
+    .section-form input,select,{
+        margin-bottom: 30px;
     }
 }
 
@@ -221,9 +231,9 @@ background-color: rgba(237, 237, 237, 0.37)
   
         
         
-       /* .main-menu {
-            display: none
-        }*/
+        .main-menu {
+            display: none /*menu doesn't appear when refreshed */
+        }
         
         .mobile-nav-icon{
             display: inline-block;
@@ -240,7 +250,6 @@ background-color: rgba(237, 237, 237, 0.37)
     padding-bottom: 15px;
     display: block;
     margin-left: 0px;
-
 }
         
  
@@ -249,8 +258,6 @@ background-color: rgba(237, 237, 237, 0.37)
     border-bottom: 2px solid #e67e22;
 }
 
-        
-
 .logo {
     margin-top: 0px;
 }
@@ -258,10 +265,9 @@ background-color: rgba(237, 237, 237, 0.37)
         
 /* sticky nav   sticky nav   sticky nav */
 
-
-        
-
-        
+        .sticky .main-menu{
+            display: none;
+        }
  .mobile-nav-icon{
     margin-top: 0;
 }
@@ -448,6 +454,15 @@ background-color: rgba(237, 237, 237, 0.37)
         input[type='submit']{
             margin-left: 30%;
         }
+    
+         .section-form div{
+            margin-bottom: -30px;
+        }
+    
+         .section-form input,select{
+            margin-bottom: -30px;
+        }
+
         
 /* section-footer */
       
