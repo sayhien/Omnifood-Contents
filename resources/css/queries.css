@@ -82,7 +82,7 @@ background-color: rgba(237, 237, 237, 0.37)
         .section-cities .col,
         .section-start .col {
             width: 100%;
-            margin: 1% auto;
+            margin: 0 auto;
             padding: 6%;
         }
         
