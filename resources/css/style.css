@@ -250,6 +250,7 @@ header {
 
 /* sticky nav */
 
+
  .mobile-nav-icon{
     float:right;
     cursor: pointer;
@@ -623,6 +624,22 @@ form {
     margin-bottom: 10px;
 }
 
+.php-message{
+    width:80%;
+    padding: 10px;
+    margin: 0 auto;
+    color: #333;
+    border-radius:3px;
+    font-weight: 500;
+}
+
+.php-success{
+    background-color: rgb(117, 191, 255)
+}
+
+.php-fail{
+    background-color: rgb(255, 89, 89)
+}
 input[type=text],
 input[type=email],
 textarea,
@@ -646,6 +663,10 @@ input[type=submit] {
     margin-left: 33.5%;
 }
 
+.map{
+    width: 100%;
+    height:200px;
+}
 
 /*----------------------------*/
 
